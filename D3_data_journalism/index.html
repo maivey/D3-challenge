@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-lg-12 jumbotron text-center">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12 col-lg-12">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12 col-lg-12">
+        <div class = "article">
+        <div style= "margin-top:30px" id="stats">
+
+        </div>
+      </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12 col-lg-12">
+        <div class="article">
+          <h2 style= "margin-top:50px">Correlations Discovered Between Health Risks and Poverty, Age, and Income</h2>
+          <p><span style = "font-size: 18px; font-weight:bold; color:darkslategray">Poverty</span> As illustrated above, there is a positive correlation between poverty and healthcare, smoking, and obesity. That is, the percentage
+            of poverty increases with an increase in the percentage of lack of healthcare. There is also a positive correlation 
+            between poverty and smoking. An increase in the percentage of poverty corresponds to an increase in the percentage of 
+            people who smoke. Finally, there is a positive correlation between poverty and obesity. The states with a higher percentage of poverty
+            tend to have a higher percentage of obesity in those states.
+          </p>
+
+          <p><span style = "font-size: 19px; font-weight:bold; color:darkslategray">Age </span> There is a negative correlation between age and lack of healthcare. 
+            The states with a lower median age tend to have a higher percentage of people who lack healthcare.
+            There is a weak positive linear correlation between age and percentage of smokers in the state.
+            There is a very weak negative linear correlation between age and obesity. 
+            Thus, more analysis must be done to determine if age and percentage of smokers and percentage of obesity exists.
+             </p>
+
+          <p><span style = "font-size: 19px; font-weight:bold; color:darkslategray">Income </span> There is a negative correlation between income and healthcare, smoking, and obesity.
+            The states that have a higher median income tend to have a lower percentage of people who lack healthcare.
+            The states that have a lower median income tend to have a higher percentage of people who smoke.
+            Likewise, the states that have a lower median income tend to have a higher obesity percentage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <!-- <p>The Coding Boot Camp&copy;2016</p> -->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+  <!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
+  <script type="text/javascript" src="app.js"></script>
+  <script src = "https://unpkg.com/simple-statistics@7.0.2/dist/simple-statistics.min.js"></script>
+
+
+</body>
+
+</html>
