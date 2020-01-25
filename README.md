@@ -3,7 +3,7 @@ Analyzes the current trends shaping people's lives, as well as creates charts, g
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
-View the deployed project ![here](https://maivey.github.io/D3-challenge/D3_data_journalism/)
+View the deployed project [here](https://maivey.github.io/D3-challenge/D3_data_journalism/index.html)
 
 This script is for the following scenario:
 Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand your findings.
